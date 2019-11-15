@@ -1,0 +1,178 @@
+/* 
+Stylesheet
+Last Updated: 2019-06-25
+Author: J B
+*/
+ 
+ header {
+	 background-image:url(Images/bckgrnd1.jpg);
+	 border-radius: 10px;
+ }
+#title {
+	 display: inline;
+	 padding:150px; 
+	 font-size:45px; 
+	 font-weight:bold;
+	 font-family:"Book Antiqua", "Palatino, serif", "Palatino Linotype";
+ }
+ #logo {
+	 width:200px; 
+	 height:162px;
+	 margin-left: 10px;
+ }
+ body {
+	background-image: url(Images/bckgrnd2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+ 
+ footer {
+	 text-align:center;
+	 font-weight:bold;
+	 font-style:italic;
+	 color: yellow;
+ }
+ 
+ * {box-sizing: border-box;
+	}
+
+ .column {
+	  float: left;
+	  width: 33.33%;
+	  padding: 5px;
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 20px;
+	  color:#FFF;
+	  font-family:Arial, Helvetica, sans-serif;
+	}
+
+	/* Clearfix (clear floats) */
+ .row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+ #gallery {
+ 		width:92%;
+		height: 300px;
+		border: 2px solid white;
+		 		}
+#icons {
+		font-size:18px;
+		}
+		
+#travel {
+	 font-size:24px;
+	 margin-left:20px;
+ 	}
+ 
+ #regform {
+	border: 2px solid green;
+	border-radius: 8px;
+	border-spacing: 10px;
+	margin: auto;
+	font-weight:bold;
+	background-color: #ccc;
+	width: 550px;
+	padding:10px;
+ }
+ 
+ #choice {
+	font-weight: normal;
+ }
+ 
+ #contacts {
+	margin: auto;
+ 	width: 50%;
+	font-size: 20px
+ }
+#words {
+	width:300px;
+}
+#words {
+	width:300px;
+}
+#instruct {
+	margin: 30px 30px;
+	color:black;
+	font-weight:bold;
+	font-size:24px;
+}
+ #navbar {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	font-size: 20px;
+	margin-top: 0;
+	margin-right: 30px;
+	margin-bottom:20px;
+	margin-left: 30px;
+	}
+ #navbar li {
+  display: inline;
+  padding: 10px;
+}
+input[type=text] {
+  width: 75%;
+  padding: 5px 5px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: 1.5px solid black;
+  border-radius: 3px;
+}
+input[type=password] {
+  width: 75%;
+  padding: 5px 5px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: 1.5px solid black;
+  border-radius: 3px;
+}
+.form10 {
+	display:inline; 
+	margin-left:130px;
+}
+.pop-up {
+     height:300px;
+     width: 300px;
+     margin-right: 300px;
+     margin-top: 10px;
+     float: right;
+ 	 display: none;	 
+  }
+
+ .button {
+      /*change the width and height to match button.jpg's*/
+      width:200px;
+      height:50px;
+	  font-size: 22px;
+      display:block;
+ 	  background-image:url(image/button.jpg);
+	 
+  }
+#popupImage {width:300px;
+			 height:300px;	
+			 border: 2.5px solid black;
+		}
+#popup {position:absolute; 
+		top:250px;
+		right:60px;
+		}
+#destinations{
+		border: 2px solid green;
+		border-collapse: collapse;
+		margin-left: 25%; 
+	}
+.page{
+		border: 2px solid green;
+		height:250px;
+		width:250px;
+		font-family: Helvetica;
+			
+	}
+#pages {
+		height: 10px;
+		width: 250px;
+		font-style: italic;
+		}
